@@ -1,44 +1,42 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Tic Tac Toe
 
-## Available Scripts
+A Typescript/React web app, created to learn Test Driven Development methodology.  
+Play the game on [Netlify here!](#).
 
-In the project directory, you can run:
+## Preview
 
-### `npm start`
+![Tic Tac Toe](add gif later)
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Features
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+- a game has nine fields in a 3x3 grid
+- there are two players in the game (X and O)
+- players take turns taking fields until the game is over
+- a player can take a field if not already taken
+- a game is over when all fields in a row are taken by a player
+- a game is over when all fields in a column are taken by a player
+- a game is over when all fields in a diagonal are taken by a player
+- a game is over when all fields are taken
 
-### `npm test`
+## Install
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Tic Tac Toe can be viewed on [Netlify here!](#). Alternatively, it can be run locally:
 
-### `npm run build`
+Note: Node and npm must be installed.
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```markdown
+git clone https://github.com/mnemosx/react-tictactoe.git
+cd react-tictactoe_2
+npm install
+npm start
+```
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+Navigate to `http://localhost:8080` in your browser.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Testing
 
-### `npm run eject`
+The testing library used is [Jest](https://jestjs.io/).
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+#### To run tests: 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Type `npm run test` in the terminal.
