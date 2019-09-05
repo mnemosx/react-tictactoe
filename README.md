@@ -1,11 +1,11 @@
 # Tic Tac Toe
 
 A Typescript/React web app, created to learn Test Driven Development methodology.  
-Play the game on [Netlify here!](#).
+Play the game on [Netlify here!](https://totallynotjustanothertictactoe.netlify.com/).
 
 ## Preview
 
-![Tic Tac Toe](add gif later)
+![Tic Tac Toe](./ttt.gif)
 
 ## Features
 
@@ -17,10 +17,11 @@ Play the game on [Netlify here!](#).
 - a game is over when all fields in a column are taken by a player
 - a game is over when all fields in a diagonal are taken by a player
 - a game is over when all fields are taken
+- a game can be reset during game or after the game is over
 
 ## Install
 
-Tic Tac Toe can be viewed on [Netlify here!](#). Alternatively, it can be run locally:
+Tic Tac Toe can be viewed on [Netlify here!](https://totallynotjustanothertictactoe.netlify.com/). Alternatively, it can be run locally:
 
 Note: Node and npm must be installed.
 
@@ -31,7 +32,7 @@ npm install
 npm start
 ```
 
-Navigate to `http://localhost:8080` in your browser.
+Navigate to `http://localhost:8000` in your browser.
 
 ## Testing
 
