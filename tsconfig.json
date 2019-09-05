@@ -6,6 +6,8 @@
       "dom.iterable",
       "esnext"
     ],
+    "sourceMap": true,
+    "outDir": "./out",
     "noImplicitAny": true,
     "strictNullChecks": true,
     "strictFunctionTypes": true,
